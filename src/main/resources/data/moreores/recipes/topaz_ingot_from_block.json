@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:topaz_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:topaz_gem",
+		"count": 9
+	}
+}

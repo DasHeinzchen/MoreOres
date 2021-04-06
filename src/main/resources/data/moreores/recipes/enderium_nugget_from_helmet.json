@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:enderium_helmet"
+	},
+	
+	"result": "moreores:enderium_nugget",
+	"experience": 1.0
+}

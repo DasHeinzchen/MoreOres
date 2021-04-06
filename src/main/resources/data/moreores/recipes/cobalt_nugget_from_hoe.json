@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:cobalt_hoe"
+	},
+	
+	"result": "moreores:cobalt_nugget",
+	"experience": 1.0
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:opal_gem"}
+	},
+	
+	"result": {"item": "moreores:opal_helmet"}
+}

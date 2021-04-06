@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:platinum_shovel"
+	},
+	
+	"result": "moreores:platinum_nugget",
+	"experience": 1.0
+}

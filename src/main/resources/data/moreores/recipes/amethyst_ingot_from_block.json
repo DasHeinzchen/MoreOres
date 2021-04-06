@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:amethyst_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:amethyst_gem",
+		"count": 9
+	}
+}

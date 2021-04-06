@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:zinc_sword"
+	},
+	
+	"result": "moreores:zinc_nugget",
+	"experience": 1.0
+}

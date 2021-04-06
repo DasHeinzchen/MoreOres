@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:ardite_ore"
+	},
+	
+	"result": "moreores:ardite_ingot",
+	"experience": 1.1
+}

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:lead_axe"
+	},
+	
+	"result": "moreores:lead_nugget",
+	"experience": 1.0
+}

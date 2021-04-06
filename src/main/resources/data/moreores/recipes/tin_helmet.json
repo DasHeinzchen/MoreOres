@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:tin_ingot"}
+	},
+	
+	"result": {"item": "moreores:tin_helmet"}
+}

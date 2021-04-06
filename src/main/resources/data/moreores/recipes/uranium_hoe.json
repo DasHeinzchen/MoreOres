@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		"S ",
+		"S "
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:uranium_ingot"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "moreores:uranium_hoe"}
+}

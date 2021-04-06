@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:platinum_ore"
+	},
+	
+	"result": "moreores:platinum_ingot",
+	"experience": 1.0
+}

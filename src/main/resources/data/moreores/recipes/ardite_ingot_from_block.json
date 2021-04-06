@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:ardite_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:ardite_ingot",
+		"count": 9
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:platinum_ingot"}
+	},
+	
+	"result": {"item": "moreores:platinum_block"}
+}

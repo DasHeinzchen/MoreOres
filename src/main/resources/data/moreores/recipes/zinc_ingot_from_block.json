@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:zinc_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:zinc_ingot",
+		"count": 9
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:cobalt_ore_nether"
+	},
+	
+	"result": "moreores:cobalt_ingot",
+	"experience": 1.0
+}

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:ruby_ore"
+	},
+	
+	"result": "moreores:ruby_gem",
+	"experience": 1.1
+}

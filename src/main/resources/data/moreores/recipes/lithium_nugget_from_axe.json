@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:lithium_axe"
+	},
+	
+	"result": "moreores:lithium_nugget",
+	"experience": 1.0
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		" S ",
+		" S "
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:amethyst_gem"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "moreores:amethyst_pickaxe"}
+}

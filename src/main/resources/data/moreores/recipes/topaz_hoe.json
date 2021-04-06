@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		"S ",
+		"S "
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:topaz_gem"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "moreores:topaz_hoe"}
+}

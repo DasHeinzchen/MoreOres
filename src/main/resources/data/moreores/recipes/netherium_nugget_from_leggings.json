@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:netherium_leggings"
+	},
+	
+	"result": "moreores:netherium_nugget",
+	"experience": 1.0
+}

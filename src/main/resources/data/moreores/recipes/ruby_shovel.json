@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"S",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:ruby_gem"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "moreores:ruby_shovel"}
+}

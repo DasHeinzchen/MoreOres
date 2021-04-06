@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:lithium_shovel"
+	},
+	
+	"result": "moreores:lithium_nugget",
+	"experience": 1.0
+}

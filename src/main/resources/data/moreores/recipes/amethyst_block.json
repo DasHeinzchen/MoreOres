@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:amethyst_gem"}
+	},
+	
+	"result": {"item": "moreores:amethyst_block"}
+}

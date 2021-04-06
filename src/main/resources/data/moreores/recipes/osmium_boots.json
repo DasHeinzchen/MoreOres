@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:osmium_ingot"}
+	},
+	
+	"result": {"item": "moreores:osmium_boots"}
+}

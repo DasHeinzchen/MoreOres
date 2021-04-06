@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:tin_ingot"}
+	},
+	
+	"result": {"item": "moreores:tin_block"}
+}

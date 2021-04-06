@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:topaz_ore"
+	},
+	
+	"result": "moreores:topaz_gem",
+	"experience": 1.0
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:titanium_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:titanium_ingot",
+		"count": 9
+	}
+}

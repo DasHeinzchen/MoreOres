@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:ruby_gem"}
+	},
+	
+	"result": {"item": "moreores:ruby_boots"}
+}

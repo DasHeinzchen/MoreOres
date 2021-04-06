@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:ruby_gem"}
+	},
+	
+	"result": {"item": "moreores:ruby_chestplate"}
+}

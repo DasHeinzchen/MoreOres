@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:sapphire_gem"}
+	},
+	
+	"result": {"item": "moreores:sapphire_chestplate"}
+}

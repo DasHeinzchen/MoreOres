@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:ardite_helmet"
+	},
+	
+	"result": "moreores:ardite_nugget",
+	"experience": 1.0
+}

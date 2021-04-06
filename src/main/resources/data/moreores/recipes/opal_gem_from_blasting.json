@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:opal_ore"
+	},
+	
+	"result": "moreores:opal_gem",
+	"experience": 1.1
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:netherium_ingot"}
+	},
+	
+	"result": {"item": "moreores:netherium_helmet"}
+}

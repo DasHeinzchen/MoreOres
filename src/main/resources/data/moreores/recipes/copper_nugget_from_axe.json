@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:copper_axe"
+	},
+	
+	"result": "moreores:copper_nugget",
+	"experience": 1.0
+}

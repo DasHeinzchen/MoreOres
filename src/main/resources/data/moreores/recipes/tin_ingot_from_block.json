@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:tin_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:tin_ingot",
+		"count": 9
+	}
+}

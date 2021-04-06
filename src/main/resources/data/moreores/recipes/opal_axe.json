@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		"SI",
+		"S "
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:opal_gem"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "moreores:opal_axe"}
+}

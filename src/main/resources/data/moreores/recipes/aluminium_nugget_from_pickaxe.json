@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:aluminium_pickaxe"
+	},
+	
+	"result": "moreores:aluminium_nugget",
+	"experience": 1.0
+}

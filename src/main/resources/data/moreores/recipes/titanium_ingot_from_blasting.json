@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:titanium_ore"
+	},
+	
+	"result": "moreores:titanium_ingot",
+	"experience": 1.1
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"NNN",
+		"NNN",
+		"NNN"
+	],
+	
+	"key":
+	{
+		"N": {"item": "moreores:copper_nugget"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:copper_ingot",
+		"count": 1
+	}
+}

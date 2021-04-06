@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:osmium_ore"
+	},
+	
+	"result": "moreores:osmium_ingot",
+	"experience": 1.1
+}

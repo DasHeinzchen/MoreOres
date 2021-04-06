@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:uranium_ore"
+	},
+	
+	"result": "moreores:uranium_ingot",
+	"experience": 1.0
+}

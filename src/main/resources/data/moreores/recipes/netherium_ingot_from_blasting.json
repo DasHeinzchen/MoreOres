@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:netherium_ore"
+	},
+	
+	"result": "moreores:netherium_ingot",
+	"experience": 1.1
+}

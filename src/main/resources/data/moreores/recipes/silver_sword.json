@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"I",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:silver_ingot"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "moreores:silver_sword"}
+}

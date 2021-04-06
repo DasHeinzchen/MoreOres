@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:opal_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:opal_gem",
+		"count": 9
+	}
+}

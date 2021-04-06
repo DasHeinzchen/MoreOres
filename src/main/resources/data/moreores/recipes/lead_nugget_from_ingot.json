@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:lead_ingot"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:lead_nugget",
+		"count": 9
+	}
+}

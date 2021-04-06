@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:uranium_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:uranium_ingot",
+		"count": 9
+	}
+}

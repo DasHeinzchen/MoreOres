@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:zinc_ingot"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:zinc_nugget",
+		"count": 9
+	}
+}

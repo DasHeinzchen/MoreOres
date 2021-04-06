@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:enderium_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:enderium_ingot",
+		"count": 9
+	}
+}

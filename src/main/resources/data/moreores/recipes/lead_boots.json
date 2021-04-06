@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"I I"
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:lead_ingot"}
+	},
+	
+	"result": {"item": "moreores:lead_boots"}
+}

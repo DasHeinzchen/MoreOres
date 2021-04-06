@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		"SI",
+		"S "
+	],
+	
+	"key":
+	{
+		"I": {"item": "moreores:tungsten_ingot"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "moreores:tungsten_axe"}
+}

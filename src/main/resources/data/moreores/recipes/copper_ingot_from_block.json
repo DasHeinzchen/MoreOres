@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item": "moreores:copper_block"}
+	},
+	
+	"result": 
+	{
+		"item": "moreores:copper_ingot",
+		"count": 9
+	}
+}

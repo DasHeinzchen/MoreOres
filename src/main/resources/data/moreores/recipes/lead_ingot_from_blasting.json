@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:lead_ore"
+	},
+	
+	"result": "moreores:lead_ingot",
+	"experience": 1.1
+}

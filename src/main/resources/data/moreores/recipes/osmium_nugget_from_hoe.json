@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":
+	{
+		"item": "moreores:osmium_hoe"
+	},
+	
+	"result": "moreores:osmium_nugget",
+	"experience": 1.0
+}

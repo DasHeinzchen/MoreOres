@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient":
+	{
+		"item": "moreores:silver_ore"
+	},
+	
+	"result": "moreores:silver_ingot",
+	"experience": 1.1
+}
