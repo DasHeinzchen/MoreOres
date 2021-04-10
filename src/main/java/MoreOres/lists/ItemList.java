@@ -295,4 +295,6 @@ public class ItemList
 	public static Item opal_chestplate;
 	public static Item opal_leggings;
 	public static Item opal_boots;
+	//Machines
+	public static Item crusher;
 }

@@ -51,4 +51,6 @@ public class BlockList
 	public static Block sapphire_ore;
 	public static Block osmium_ore;
 	public static Block opal_ore;
+	//Machines
+	public static Block crusher;
 }
