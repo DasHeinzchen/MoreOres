@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "moreores:block/crusher"
-    }
+    "normal": { "model": "moreores:blocks/crusher" }
   }
 }
