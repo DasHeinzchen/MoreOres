@@ -12,3 +12,7 @@ Translation
 =========================
 You can help out with the Translation.
 https://crowdin.com/project/moreores/
+
+Texture Designs
+==========================
+Please submit your Texture Disigns at my Discord.
