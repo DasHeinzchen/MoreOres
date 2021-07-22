@@ -1,0 +1,25 @@
+{
+  "parent": "block/orientable_with_bottom",
+  "textures": {
+    "particle": "#sides",
+    "down": "#top",
+    "up": "#bottom",
+    "north": "#front",
+    "east": "#sides",
+    "south": "#sides",
+    "west": "#sides"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+        "to": [ 16, 16, 16 ],
+        "faces": {
+          "down":  { "texture": "#down", "cullface": "down" },
+          "up":    { "texture": "#up", "cullface": "up" },
+          "north": { "texture": "#north", "cullface": "north" },
+          "south": { "texture": "#south", "cullface": "south" },
+          "west":  { "texture": "#west", "cullface": "west" },
+          "east":  { "texture": "#east", "cullface": "east" }
+      }
+    }
+  ]
+}
