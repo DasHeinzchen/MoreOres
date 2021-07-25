@@ -1,0 +1,79 @@
+Planned Features
+
+    Crusher
+    Centrifuge
+    some kind of Energy generation
+    Dusts
+    new Materials
+    Bows, Arrows and Shields
+    Orelings (hostile Mobs that might spawn when breaking a Ore)
+    Ore Dimension
+
+
+CHANGELOG
+
+Version 1.0.0
+
+    Major changes:
+
+        adds Ores, Blocks, Items, Nuggets and Tools of following Materials:
+
+            Copper
+            Tin
+            Silver
+            Lead
+            Platinum
+            Uranium
+            Ruby (no nugget)
+            Topaz (no nugget)
+            Cobalt
+            Ardite
+            Nickel
+            Netherite
+            Zinc
+            Titanium
+            Tungsten
+            Lithium
+            Aluminium
+            Amethyst (no nugget)
+            Sapphire (no nugget)
+            Osmium
+            Enderium (no ore spawning)
+
+Version 1.0.1
+
+    Minor Changes:
+
+        set enchantability of Osmium Tools to 16
+        set down attack damage of all tools by 1
+
+    Bugfixes:
+
+        fixed ItemTypes of Osmium Tools
+
+Version 1.0.2
+
+    Bugfixes:
+
+        Fixed Ore spawning of Netherite
+
+Version 1.0.3
+
+    Minor Changes:
+
+        Ores of gems are dropping gems instead of ores now
+        added Opal
+
+    Bugfixes:
+
+        fixed german lang
+
+Version 1.0.4
+
+    Major Changes:
+
+        Added Config File
+        Generation of Ore changeable
+        Veinsize changeable
+        Maximum height of generation changeable
+        Chunk frequency changeable
