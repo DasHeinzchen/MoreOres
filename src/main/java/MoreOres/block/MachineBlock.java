@@ -1,18 +1,22 @@
 package MoreOres.block;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;
-import net.minecraft.state.DirectionProperty;
-import net.minecraft.state.properties.BlockStateProperties;
-import net.minecraft.util.Direction;
+import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.state.StateContainer;
 
-public class MachineBlock extends HorizontalBlock
+public abstract class MachineBlock extends HorizontalBlock
 {
-    //static final DirectionProperty DirectionProperty = BlockStateProperties.;
-
     public MachineBlock(Properties properties)
     {
         super(properties);
-        //this.setDefaultState(this.stateContainer.getBaseState().with(DirectionProperty, Direction.NORTH));
+    }
+    public BlockState getStateForPlacement(BlockItemUseContext context) {
+        return this.getDefaultState().with(HORIZONTAL_FACING, context.getPlacementHorizontalFacing().getOpposite());
+    }
+
+    protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+        builder.add(HORIZONTAL_FACING);
     }
 }

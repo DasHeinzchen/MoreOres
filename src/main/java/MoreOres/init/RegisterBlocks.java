@@ -1,5 +1,6 @@
 package MoreOres.init;
 
+import MoreOres.block.Crusher;
 import MoreOres.block.MachineBlock;
 import MoreOres.lists.BlockList;
 import net.minecraft.block.Block;
@@ -69,7 +70,7 @@ public class RegisterBlocks
 			BlockList.osmium_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE).harvestLevel(1).harvestTool(ToolType.PICKAXE)).setRegistryName(location("osmium_ore")),
 			BlockList.opal_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE)).setRegistryName(location("opal_ore")),
 			//Machines
-			BlockList.crusher = new MachineBlock(Block.Properties.create(Material.ANVIL).hardnessAndResistance(5.0f, 4.5f).sound(SoundType.METAL).harvestLevel(3).harvestTool(ToolType.PICKAXE)).setRegistryName(location("crusher"))
+			BlockList.crusher = new Crusher(Block.Properties.create(Material.ANVIL).hardnessAndResistance(5.0f, 4.5f).sound(SoundType.METAL).harvestLevel(3).harvestTool(ToolType.PICKAXE)).setRegistryName(location("crusher"))
 		);
 	}
 	private static ResourceLocation location(String name) 
