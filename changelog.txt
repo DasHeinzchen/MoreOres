@@ -1,3 +1,15 @@
+Planned Features
+
+    Crusher
+    Centrifuge
+    some kind of Energy generation
+    Dusts
+    new Materials
+    Bows, Arrows and Shields
+    Orelings (hostile Mobs that might spawn when breaking a Ore)
+    Ore Dimension
+
+
 CHANGELOG
 
 Version 1.0.0
