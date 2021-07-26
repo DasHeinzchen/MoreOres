@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "moreores:blocks/power_provider/power_provider_top",
+    "bottom": "moreores:blocks/power_provider/power_provider_bottom",
+    "side": "moreores:blocks/power_provider/power_provider_side",
+    "front": "moreores:blocks/power_provider/power_provider_front"
+  }
+}

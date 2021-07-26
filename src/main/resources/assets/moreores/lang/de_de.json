@@ -247,11 +247,13 @@
 	"item.moreores.opal_chestplate": "Opal Brustplatte",
 	"item.moreores.opal_leggings": "Opal Beinschutz",
 	"item.moreores.opal_boots": "Opal Schuhe",
-	"item.moreores.crusher": "Zerkleinerer",
+	"block.moreores.crusher": "Zerkleinerer",
 	"block.moreores.centrifuge": "Zentrifuge",
+	"block.moreores.power_provider": "Energieerzeuger",
 	
 	"itemGroup.Resources": "Resourcen",
 	"itemGroup.Tools": "Werkzeuge",
 	"itemGroup.Weapons": "Waffen",
-	"itemGroup.Armor": "Rüstung"
+	"itemGroup.Armor": "Rüstung",
+	"itemGroup.Misc": "Verschiedenes"
 }

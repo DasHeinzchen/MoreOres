@@ -2,6 +2,7 @@ package MoreOres.init;
 
 import MoreOres.block.Crusher;
 import MoreOres.block.Centrifuge;
+import MoreOres.block.PowerProvider;
 import MoreOres.lists.BlockList;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -71,7 +72,8 @@ public class RegisterBlocks
 			BlockList.opal_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE)).setRegistryName(location("opal_ore")),
 			//Machines
 			BlockList.crusher = new Crusher(Block.Properties.create(Material.ANVIL).hardnessAndResistance(5.0f, 4.5f).sound(SoundType.METAL).harvestLevel(3).harvestTool(ToolType.PICKAXE)).setRegistryName(location("crusher")),
-			BlockList.centrifuge = new Centrifuge(Block.Properties.create(Material.ANVIL).hardnessAndResistance(5.0f, 4.5f).sound(SoundType.METAL).harvestLevel(3).harvestTool(ToolType.PICKAXE)).setRegistryName(location("centrifuge"))
+			BlockList.centrifuge = new Centrifuge(Block.Properties.create(Material.ANVIL).hardnessAndResistance(5.0f, 4.5f).sound(SoundType.METAL).harvestLevel(3).harvestTool(ToolType.PICKAXE)).setRegistryName(location("centrifuge")),
+			BlockList.power_provider = new PowerProvider(Block.Properties.create(Material.ANVIL).hardnessAndResistance(5.0f, 4.5f).sound(SoundType.METAL).harvestLevel(3).harvestTool(ToolType.PICKAXE)).setRegistryName(location("power_provider"))
 		);
 	}
 	private static ResourceLocation location(String name) 

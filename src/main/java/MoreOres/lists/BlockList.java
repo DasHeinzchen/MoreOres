@@ -55,4 +55,5 @@ public class BlockList
 	//Machines
 	public static Block crusher;
 	public static Block centrifuge;
+	public static Block power_provider;
 }

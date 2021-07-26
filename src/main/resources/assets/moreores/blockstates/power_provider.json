@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "moreores:block/power_provider"
+    },
+    "facing=east": {
+      "model": "moreores:block/power_provider",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "moreores:block/power_provider",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "moreores:block/power_provider",
+      "y": 270
+    }
+  }
+}

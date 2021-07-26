@@ -298,4 +298,5 @@ public class ItemList
 	//Machines
 	public static Item crusher;
 	public static Item centrifuge;
+	public static Item power_provider;
 }

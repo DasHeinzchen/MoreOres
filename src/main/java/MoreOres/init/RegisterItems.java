@@ -4,6 +4,7 @@ import MoreOres.itemGroups.Armor;
 import MoreOres.itemGroups.Resources;
 import MoreOres.itemGroups.Tools;
 import MoreOres.itemGroups.Weapons;
+import MoreOres.itemGroups.Misc;
 import MoreOres.lists.ArmorMaterialList;
 import MoreOres.lists.BlockList;
 import MoreOres.lists.ItemList;
@@ -30,6 +31,7 @@ public class RegisterItems
 	public static final ItemGroup tools = new Tools();
 	public static final ItemGroup weapons = new Weapons();
 	public static final ItemGroup armor = new Armor();
+	public static final ItemGroup misc = new Misc();
 	
 	//Register Items
 	@SubscribeEvent
@@ -328,8 +330,9 @@ public class RegisterItems
 			ItemList.opal_leggings = new ArmorItem(ArmorMaterialList.OPAL, EquipmentSlotType.LEGS, new Item.Properties().group(armor)).setRegistryName(location("opal_leggings")),
 			ItemList.opal_boots = new ArmorItem(ArmorMaterialList.OPAL, EquipmentSlotType.FEET, new Item.Properties().group(armor)).setRegistryName(location("opal_boots")),
 			//Items of Machines
-			ItemList.crusher = new BlockItem(BlockList.crusher, new Item.Properties()).setRegistryName(BlockList.crusher.getRegistryName()),
-			ItemList.centrifuge = new BlockItem(BlockList.centrifuge, new Item.Properties()).setRegistryName(BlockList.centrifuge.getRegistryName())
+			ItemList.crusher = new BlockItem(BlockList.crusher, new Item.Properties().group(misc)).setRegistryName(BlockList.crusher.getRegistryName()),
+			ItemList.centrifuge = new BlockItem(BlockList.centrifuge, new Item.Properties().group(misc)).setRegistryName(BlockList.centrifuge.getRegistryName()),
+			ItemList.power_provider = new BlockItem(BlockList.power_provider, new Item.Properties().group(misc)).setRegistryName(BlockList.power_provider.getRegistryName())
 		);
 	}
 	private static ResourceLocation location(String name) 
