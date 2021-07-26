@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "IDI",
+    "LCD",
+    "IPI"
+  ],
+
+  "key":
+  {
+    "P": {"item": "moreores:power_provider"},
+    "I": {"item": "minecraft:iron_ingot"},
+    "C": {"item": "moreores:copper_block"},
+    "L": {"item": "moreores:platinum_pickaxe"},
+    "D": {"item": "minecraft:diamond_shovel"}
+  },
+
+  "result": {"item": "moreores:centrifuge"}
+}
