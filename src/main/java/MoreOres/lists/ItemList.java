@@ -297,4 +297,5 @@ public class ItemList
 	public static Item opal_boots;
 	//Machines
 	public static Item crusher;
+	public static Item centrifuge;
 }

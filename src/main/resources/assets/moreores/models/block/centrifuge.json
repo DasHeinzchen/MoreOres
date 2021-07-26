@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "moreores:blocks/centrifuge/centrifuge_top",
+    "bottom": "moreores:blocks/centrifuge/centrifuge_bottom",
+    "side": "moreores:blocks/centrifuge/centrifuge_side",
+    "front": "moreores:blocks/centrifuge/centrifuge_front"
+  }
+}

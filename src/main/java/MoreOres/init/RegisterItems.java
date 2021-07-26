@@ -328,7 +328,8 @@ public class RegisterItems
 			ItemList.opal_leggings = new ArmorItem(ArmorMaterialList.OPAL, EquipmentSlotType.LEGS, new Item.Properties().group(armor)).setRegistryName(location("opal_leggings")),
 			ItemList.opal_boots = new ArmorItem(ArmorMaterialList.OPAL, EquipmentSlotType.FEET, new Item.Properties().group(armor)).setRegistryName(location("opal_boots")),
 			//Items of Machines
-			ItemList.crusher = new BlockItem(BlockList.crusher, new Item.Properties()).setRegistryName(location("crusher"))
+			ItemList.crusher = new BlockItem(BlockList.crusher, new Item.Properties()).setRegistryName(BlockList.crusher.getRegistryName()),
+			ItemList.centrifuge = new BlockItem(BlockList.centrifuge, new Item.Properties()).setRegistryName(BlockList.centrifuge.getRegistryName())
 		);
 	}
 	private static ResourceLocation location(String name) 

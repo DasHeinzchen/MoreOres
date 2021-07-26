@@ -1,5 +1,6 @@
 package MoreOres.lists;
 
+import MoreOres.block.Centrifuge;
 import net.minecraft.block.Block;
 
 public class BlockList 
@@ -53,4 +54,5 @@ public class BlockList
 	public static Block opal_ore;
 	//Machines
 	public static Block crusher;
+	public static Block centrifuge;
 }

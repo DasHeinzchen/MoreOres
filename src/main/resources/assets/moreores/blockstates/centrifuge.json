@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "moreores:block/centrifuge"
+    },
+    "facing=east": {
+      "model": "moreores:block/centrifuge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "moreores:block/centrifuge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "moreores:block/centrifuge",
+      "y": 270
+    }
+  }
+}
