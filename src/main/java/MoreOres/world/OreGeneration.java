@@ -2,7 +2,7 @@ package MoreOres.world;
 
 import java.util.ArrayList;
 
-import MoreOres.Config.OregenConfig;
+import MoreOres.config.OregenConfig;
 import MoreOres.lists.BlockList;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.registry.Registry;
