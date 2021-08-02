@@ -44,38 +44,38 @@ public enum ToolMaterialList implements IItemTier
 	}
 
 	@Override
-	public int getMaxUses() 
+	public int getUses()
 	{
 		return this.durability;
 	}
 
 	@Override
-	public float getEfficiency() 
+	public float getSpeed()
 	{
 		return this.efficiency;
 	}
 
 	@Override
-	public float getAttackDamage() 
+	public float getAttackDamageBonus()
 	{
 		return this.attackDmg;
 	}
 
 	@Override
-	public int getHarvestLevel() 
+	public int getLevel()
 	{
 		return this.harvestLevel;
 	}
 
 	@Override
-	public int getEnchantability() 
+	public int getEnchantmentValue()
 	{
 		return this.enchantabillity;
 	}
 
 	@Override
-	public Ingredient getRepairMaterial() 
+	public Ingredient getRepairIngredient()
 	{
-		return Ingredient.fromItems(this.repairMaterial);
+		return Ingredient.of(this.repairMaterial);
 	}
 }

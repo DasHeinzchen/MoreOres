@@ -13,7 +13,7 @@ public class Armor extends ItemGroup
 	}
 
 	@Override
-	public ItemStack createIcon() 
+	public ItemStack makeIcon()
 	{
 		return new ItemStack(ItemList.copper_chestplate);
 	}

@@ -13,7 +13,7 @@ public class Weapons extends ItemGroup
 	}
 
 	@Override
-	public ItemStack createIcon() 
+	public ItemStack makeIcon()
 	{
 		return new ItemStack(ItemList.copper_sword);
 	}

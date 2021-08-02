@@ -77,3 +77,9 @@ Version 1.0.4
         Veinsize changeable
         Maximum height of generation changeable
         Chunk frequency changeable
+
+Version 1.0.5 (unofficial)
+
+    Minior Changes:
+
+        Changed Foge version to 36.2.0
