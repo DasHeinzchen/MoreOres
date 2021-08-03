@@ -1,4 +1,4 @@
-package MoreOres.Config;
+package MoreOres.config;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 

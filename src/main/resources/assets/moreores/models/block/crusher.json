@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "moreores:blocks/crusher/crusher_top",
+    "bottom": "moreores:blocks/crusher/crusher_bottom",
+    "side": "moreores:blocks/crusher/crusher_side",
+    "front": "moreores:blocks/crusher/crusher_front"
+  }
+}

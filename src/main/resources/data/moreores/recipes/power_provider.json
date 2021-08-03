@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "ICI",
+    "TFT",
+    "ITI"
+  ],
+
+  "key":
+  {
+    "F": {"item": "minecraft:furnace"},
+    "T": {"item": "moreores:tungsten_ingot"},
+    "C": {"item": "moreores:copper_ingot"},
+    "I": {"item": "minecraft:iron_ingot"}
+  },
+
+  "result": {"item": "moreores:power_provider"}
+}

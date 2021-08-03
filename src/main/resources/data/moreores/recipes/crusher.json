@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "RSR",
+    "CIC",
+    "RPR"
+  ],
+
+  "key":
+  {
+    "P": {"item": "moreores:power_provider"},
+    "I": {"item": "minecraft:iron_block"},
+    "S": {"item": "minecraft:piston"},
+    "C": {"item": "moreores:copper_ingot"},
+    "R": {"item": "minecraft:iron_ingot"}
+  },
+
+  "result": {"item": "moreores:crusher"}
+}

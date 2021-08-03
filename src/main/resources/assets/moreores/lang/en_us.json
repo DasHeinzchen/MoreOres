@@ -284,9 +284,13 @@
 	"item.moreores.opal_chestplate": "Opal Chestplate",
 	"item.moreores.opal_leggings": "Opal Leggings",
 	"item.moreores.opal_boots": "Opal Boots",
+	"block.moreores.crusher": "Crusher",
+	"block.moreores.centrifuge": "Centrifuge",
+	"block.moreores.power_provider": "Power Provider",
 	
 	"itemGroup.Resources": "Resources",
 	"itemGroup.Tools": "Tools",
 	"itemGroup.Weapons": "Weapons",
-	"itemGroup.Armor": "Armor"
+	"itemGroup.Armor": "Armor",
+	"itemGroup.Misc": "Misc"
 }
