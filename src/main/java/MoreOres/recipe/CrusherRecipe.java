@@ -23,7 +23,7 @@ public class CrusherRecipe extends AbstractCookingRecipe
     }
 
     @Override
-    public ItemStack getIcon()
+    public ItemStack getToastSymbol()
     {
         return new ItemStack(BlockList.crusher);
     }
@@ -37,25 +37,25 @@ public class CrusherRecipe extends AbstractCookingRecipe
     public static class Serializer extends ForgeRegistryEntry<IRecipeSerializer<?>> implements IRecipeSerializer<CrusherRecipe>
     {
         @Override
-        public CrusherRecipe read(ResourceLocation recipeId, JsonObject json)
+        public CrusherRecipe fromJson(ResourceLocation recipeId, JsonObject json)
         {
-            String group = JSONUtils.getString(json,"group","");
+            String group = JSONUtils.getAsString(json,"group");
             JsonElement input = json.getAsJsonObject("input");
-            Ingredient ingredient = Ingredient.deserialize(input);
-            ItemStack result = ShapedRecipe.deserializeItem(JSONUtils.getJsonObject(json, "result"));
-            float experience = JSONUtils.getFloat(json, "experience", 0.0F);
-            int cookTime = JSONUtils.getInt(json, "cookingtime", 300);
+            Ingredient ingredient = Ingredient.fromJson(input);
+            ItemStack result = ShapedRecipe.itemFromJson(JSONUtils.getAsJsonObject(json, "result"));
+            float experience = JSONUtils.getAsFloat(json, "experience", 0.0F);
+            int cookTime = JSONUtils.getAsInt(json, "cookingtime", 300);
 
             return new CrusherRecipe(recipeId, group, ingredient, result, experience, cookTime);
         }
 
         @Nullable
         @Override
-        public CrusherRecipe read(ResourceLocation recipeId, PacketBuffer buffer)
+        public CrusherRecipe fromNetwork(ResourceLocation recipeId, PacketBuffer buffer)
         {
-            String group = buffer.readString(32767);
-            Ingredient ingredient = Ingredient.read(buffer);
-            ItemStack result = buffer.readItemStack();
+            String group = buffer.readUtf(32767);
+            Ingredient ingredient = Ingredient.fromNetwork(buffer);
+            ItemStack result = buffer.readItem();
             float experience = buffer.readFloat();
             int cookTime = buffer.readVarInt();
 
@@ -63,13 +63,13 @@ public class CrusherRecipe extends AbstractCookingRecipe
         }
 
         @Override
-        public void write(PacketBuffer buffer, CrusherRecipe recipe)
+        public void toNetwork(PacketBuffer buffer, CrusherRecipe recipe)
         {
-            buffer.writeString(recipe.group);
-            recipe.ingredient.write(buffer);
-            buffer.writeItemStack(recipe.result);
+            buffer.writeUtf(recipe.group);
+            recipe.ingredient.toNetwork(buffer);
+            buffer.writeItem(recipe.result);
             buffer.writeFloat(recipe.experience);
-            buffer.writeVarInt(recipe.cookTime);
+            buffer.writeVarInt(recipe.cookingTime);
         }
     }
 }

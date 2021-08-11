@@ -1,9 +1,11 @@
 package MoreOres.block;
 
+import net.minecraftforge.common.ToolType;
+
 public class Centrifuge extends MachineBlock
 {
-    public Centrifuge(Properties properties)
+    public Centrifuge(float hardness, float resistance, int harvestLevel, ToolType harvestTool, String registryName)
     {
-        super(properties);
+        super(hardness, resistance, harvestLevel, harvestTool, registryName);
     }
 }

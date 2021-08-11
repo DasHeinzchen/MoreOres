@@ -1,9 +1,11 @@
 package MoreOres.block;
 
+import net.minecraftforge.common.ToolType;
+
 public class PowerProvider extends MachineBlock
 {
-    public PowerProvider(Properties properties)
+    public PowerProvider(float hardness, float resistance, int harvestLevel, ToolType harvestTool, String registryName)
     {
-        super(properties);
+        super(hardness, resistance, harvestLevel, harvestTool, registryName);
     }
 }

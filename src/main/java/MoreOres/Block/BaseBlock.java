@@ -1,4 +1,4 @@
-package MoreOres.Block;
+package MoreOres.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;

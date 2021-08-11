@@ -1,7 +1,6 @@
 package MoreOres.init;
 
-import MoreOres.Block.BaseBlock;
-import MoreOres.Block.OreBlock;
+import MoreOres.block.*;
 import MoreOres.lists.BlockList;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -67,7 +66,11 @@ public class RegisterBlocks
 			BlockList.amethyst_ore = new OreBlock(2.0F, 3.0F, 2, "amethyst_ore"),
 			BlockList.sapphire_ore = new OreBlock(2.0F, 3.0F, 2, "sapphire_ore"),
 			BlockList.osmium_ore = new OreBlock(2.0F, 3.0F, 1, "osmium_ore"),
-			BlockList.opal_ore = new OreBlock(2.0F, 3.0F, 2, "opal_ore")
+			BlockList.opal_ore = new OreBlock(2.0F, 3.0F, 2, "opal_ore"),
+			//Machines
+			BlockList.crusher = new Crusher(2.0F, 3.0F, 2, ToolType.PICKAXE, "crusher"),
+			BlockList.centrifuge = new Centrifuge(2.0F, 3.0F, 2, ToolType.PICKAXE,"centrifuge"),
+			BlockList.power_provider = new PowerProvider(2.0F, 3.0F, 2, ToolType.PICKAXE,"power_provider")
 		);
 	}
 }

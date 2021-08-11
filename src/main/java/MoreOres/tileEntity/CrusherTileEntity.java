@@ -1,5 +1,6 @@
 package MoreOres.tileEntity;
 
+import MoreOres.init.RegisterTileEntities;
 import MoreOres.recipe.CrusherRecipe;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.container.Container;
@@ -10,19 +11,19 @@ import net.minecraft.util.text.ITextComponent;
 public class CrusherTileEntity extends AbstractFurnaceTileEntity
 {
 
-    protected CrusherTileEntity(TileEntityType<?> tileTypeIn)
+    public CrusherTileEntity()
     {
-        super(tileTypeIn, CrusherRecipe.TYPE);
+        super(RegisterTileEntities.CRUSHER.get(), CrusherRecipe.TYPE);
     }
 
     @Override
-    protected ITextComponent getDefaultName()
+    public ITextComponent getDefaultName()
     {
         return null;
     }
 
     @Override
-    protected Container createMenu(int id, PlayerInventory player)
+    public Container createMenu(int id, PlayerInventory player)
     {
         return null;
     }
